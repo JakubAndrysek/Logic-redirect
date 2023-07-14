@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect Page</title>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  
+  <!-- Button to trigger redirection manually -->
+  <button onclick="redirect()">Redirect Now</button>
+
+  <script>
+    // Function to perform the redirection
+    function redirect() {
+      // Redirect logic.robotickytabor.cz to logic.robotikabrno.cz
+      window.location.href = 'https://logic.robotikabrno.cz';
+    }
+
+    // Automatically redirect after 3 seconds
+    setTimeout(redirect, 1500);
+  </script>
+</body>
+</html>
